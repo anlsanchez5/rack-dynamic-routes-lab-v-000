@@ -11,7 +11,7 @@ class Application
 
       resp.write item.price
     else
-      resp.write "Rount not found"
+      resp.write "Rout not found"
       resp.status = 404
     end
 
